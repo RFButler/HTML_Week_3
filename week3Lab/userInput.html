@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Input</title>
+	</head>
+	<body>
+		<form>
+			<label>First Name:<br/>
+				<input type="text" required>
+			</label>
+			<br/>
+			<label>Last Name:<br/>
+				<input type="text" required>
+			</label>
+			<br/>
+			<label>Email Address:<br/>
+				<input type="email" required>
+			</label>
+			<p>Date of Birth: <input type="date" required></p><br/>
+			<fieldset style="width:400px">
+				<legend>Credit Card Type:</legend>
+				<input type="radio" name="cc"><img src="C:\Users\rober\OneDrive\Documents\Hdip\Web App Development\Web Pages\Week 3\week3Lab\Images\visa.png" width="50" align="center"><br/>
+				<input type="radio" name="cc"><img src="C:\Users\rober\OneDrive\Documents\Hdip\Web App Development\Web Pages\Week 3\week3Lab\Images\visaDebit.jpg" width="50" align="center"><br/>
+				<input type="radio" name="cc"><img src="C:\Users\rober\OneDrive\Documents\Hdip\Web App Development\Web Pages\Week 3\week3Lab\Images\mastercard.jpg" width="50" align="center"><br/>
+				<input type="radio" name="cc"><img src="C:\Users\rober\OneDrive\Documents\Hdip\Web App Development\Web Pages\Week 3\week3Lab\Images\amex.jpg" width="50" align="center"><br/>
+				<br/>
+				<input type="text" required> Credit Card Number<br/>
+				</br>
+				<label>Expiry Year: 
+					<select>
+						<option>2024</option>
+						<option>2025</option>
+						<option>2026</option>
+						<option>2027</option>
+					</select>
+				</label>
+				<label>Expiry Month: 
+					<select>
+						<option>Jan</option>
+						<option>Feb</option>
+						<option>Mar</option>
+						<option>Apr</option>
+						<option>May</option>
+						<option>Jun</option>
+						<option>Jul</option>
+						<option>Aug</option>
+						<option>Sep</option>
+						<option>Oct</option>
+						<option>Nov</option>
+						<option>Dec</option>
+					</select>
+				</label>
+			</fieldset>
+			</br>
+			<label>Additional Notes:<br/>
+				<textarea cols="40" rows="5">Enter additional information here...</textarea>
+			</label>
+			<br/>
+			<br/>
+			<input type="submit" value="Submit card details">
+		</form>
+	</body>
+</html>
